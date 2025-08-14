@@ -1,78 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laticinio Portal do Sertão </title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>Laticinio Portal do Sertão</h1>
-            <div class="nav-container">
-                    <nav>
-                       <a href="#">
-                            <img src="img/logo.png" alt="Logo com uma folha e um campo" class="logo">
-                       </a>
-                        <ul class="navbar-items">
-                            <li><a href="#produtos"> Produtos</a></li>
-                            <li><a href="#sobre"> Sobre Nós</a></li>
-                            <li><a href="contato"> Contato</a></li>
-                            <li><a href="#" class="default-btn">Entrar</a></li>
-                        </ul>
-                    </nav>
+            <div class="navbar-container">
+                <nav>
+                    <a href="#">
+                        <img src="img/logo.png" alt="Logo com uma folha e um campo" class="logo">
+                    </a>
+                    <ul class="navbar-items">
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#sobre"> Sobre Nós</a></li>
+                        <li><a href="contato"> Contato</a></li>
+                        <li><a href="#" class="default-btn">Entrar</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <main>
-            <div class="main banner">
+            <div class="main-banner">
                 <h2>Bem vindo ao Laticinio Portal do Sertão</h2>
                 <p> Qualidade e sabor direto do sertão para você!</p>
             </div>
 
-        <section class="laticinio">
+            <section class="laticinio">
                 <ul>
                     <li>
                         <i class="fas fa-bread-slice"></i>
                         <h3> Iogurte</h3>
                         <p> Delicioso iogurte natural, feito com leite fresco e sem conservantes
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iste veniam magnam, nobis illum vero, labore corporis quos nesciunt at modi officia! Atque numquam doloremque doloribus ut quisquam nam quis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iste veniam magnam,
+                            nobis illum vero, labore corporis quos nesciunt at modi officia! Atque numquam doloremque
+                            doloribus ut quisquam nam quis.
                         </p>
                     </li>
                     <li>
                         <i class="fas fa-cheese"></i>
                         <h3>Queijo</h3>
                         <p> Delicioso queijo natural, feito com leite fresco e sem conservantes
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iste veniam magnam, nobis illum vero, labore corporis quos nesciunt at modi officia! Atque numquam doloremque doloribus ut quisquam nam quis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iste veniam magnam,
+                            nobis illum vero, labore corporis quos nesciunt at modi officia! Atque numquam doloremque
+                            doloribus ut quisquam nam quis.
                         </p>
                     </li>
                     <li>
                         <i class="fas fa-coffee"></i>
                         <h3>Leite Integral</h3>
                         <p> Delicioso leite integral, fresco e sem conservantes
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iste veniam magnam, nobis illum vero, labore corporis quos nesciunt at modi officia! Atque numquam doloremque doloribus ut quisquam nam quis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iste veniam magnam,
+                            nobis illum vero, labore corporis quos nesciunt at modi officia! Atque numquam doloremque
+                            doloribus ut quisquam nam quis.
                         </p>
                     </li>
                 </ul>
-        </section>
+            </section>
 
-        <section id="sobre">
-            <h2> Sobre nós</h2>
-            <p>Conheça a história do Laticinio Portal do Sertão e nosso compromisso com a população</p>
-        </section>
+            <section class="sobre">
+                <h2> Sobre nós</h2>
+                <p>Conheça a história do Laticinio Portal do Sertão e nosso compromisso com a população</p>
+            </section>
 
-        <section id="contato">
-            <h2>Contato</h2>
-        </section>
-        
+            <section class="contato">
+                <h2>Contato</h2>
+                <p>Entre em contato com a gente</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Seu nome" />
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail" />
+                    <textarea name="message" id="message"
+                    placeholder="Descreva o que você precisa ou o seu projeto..."></textarea>
+                    <input type="submit" value="Enviar" />
+                </form>
+            </section>
+
         </main>
     </div>
 </body>
+
 </html>
